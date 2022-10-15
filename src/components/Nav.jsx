@@ -2,19 +2,19 @@ const Nav = () => {
   return (
     <nav className="nav">
       <div>
-        <a href="#p">Profile 1</a>
+        <a href="#p">1 Profile </a>
       </div>
       <div>
-        <a href="#m">Massages</a>
+        <a href="#m">2 Massages 2</a>
       </div>
       <div>
-        <a href="#n">News</a>
+        <a href="#n">3 News</a>
       </div>
       <div>
-        <a href="#m">Music</a>
+        <a href="#m">4 Music</a>
       </div>
       <div>
-        <a href="#s">Settings</a>
+        <a href="#s">5 Settings</a>
       </div>
     </nav>
   );
