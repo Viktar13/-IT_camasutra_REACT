@@ -2,7 +2,7 @@ const Nav = () => {
   return (
     <nav className="nav">
       <div>
-        <a href="#p">Profile</a>
+        <a href="#p">Profile 1</a>
       </div>
       <div>
         <a href="#m">Massages</a>
