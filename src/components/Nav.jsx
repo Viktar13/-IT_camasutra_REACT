@@ -14,7 +14,7 @@ const Nav = () => {
         <a href="#m">4 Music</a>
       </div>
       <div lassName="item">
-        <a href="#s">5 Settings</a>
+        <a>5 Settings</a>
       </div>
     </nav>
   );
