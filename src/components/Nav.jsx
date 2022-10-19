@@ -1,19 +1,19 @@
 const Nav = () => {
   return (
     <nav className="nav">
-      <div>
+      <div lassName="item">
         <a href="#p">1 Profile </a>
       </div>
-      <div>
+      <div lassName="item">
         <a href="#m">2 Massages 2</a>
       </div>
-      <div>
+      <div lassName="item">
         <a href="#n">3 News</a>
       </div>
-      <div>
+      <div lassName="item">
         <a href="#m">4 Music</a>
       </div>
-      <div>
+      <div lassName="item">
         <a href="#s">5 Settings</a>
       </div>
     </nav>
