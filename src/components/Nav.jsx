@@ -2,7 +2,7 @@ const Nav = () => {
   return (
     <nav className="nav">
       <div lassName="item">
-        <a href="#p">1 Profile </a>
+        <a>1 Profile </a>
       </div>
       <div lassName="item">
         <a href="#m">2 Massages 2</a>
