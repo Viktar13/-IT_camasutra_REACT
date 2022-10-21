@@ -1,0 +1,16 @@
+
+.nav {
+  grid-area: n;
+  background-color: bisque;
+} 
+
+.item {
+  color: red;
+  /* background: #000; */
+  /* font-size: 153px; */
+  /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.item.active {
+  color: orange;
+}
