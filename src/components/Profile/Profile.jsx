@@ -1,3 +1,4 @@
+import MyPosts from './MyPosts/MyPosts.jsx';
 import s from './Profile.module.css';
 
 const Profile = () => {
@@ -16,7 +17,8 @@ const Profile = () => {
             alt="Joda"
           /> */}
       </div>
-      <div>
+      <MyPosts />
+      {/* <div>
         My posts
         <div>New post</div>
       </div>
@@ -27,7 +29,7 @@ const Profile = () => {
         <div className={s.item}>
           post 2
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
