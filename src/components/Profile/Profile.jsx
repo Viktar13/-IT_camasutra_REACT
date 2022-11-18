@@ -12,24 +12,8 @@ const Profile = () => {
       </div>
       <div>
         ava + description
-        {/* <img
-            src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
-            alt="Joda"
-          /> */}
       </div>
       <MyPosts />
-      {/* <div>
-        My posts
-        <div>New post</div>
-      </div>
-      <div className={s.posts}>
-        <div className={s.item}>
-          post 1
-        </div>
-        <div className={s.item}>
-          post 2
-        </div>
-      </div> */}
     </div>
   );
 };
