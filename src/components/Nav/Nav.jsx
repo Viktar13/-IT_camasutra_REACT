@@ -1,4 +1,5 @@
 import s from './Nav.module.css';
+import {NavLink} from "react-router-dom";
 
 // console.log(s);
 
@@ -6,23 +7,23 @@ const Nav = () => {
   return (
     <nav className={s.nav}>
       <div className={s.item}>
-        <a href="/profile">1 Profile </a>
+        <NavLink to="/profile" className={NaveData => NaveData.isActive ? s.activeLink : s.item}>Profile </NavLink>
       </div>
       <div className={s.item}>
-        <a href="/dialogs">2 Massages </a>
+        <NavLink to="/dialogs" className={NaveData => NaveData.isActive ? s.activeLink : s.item}>Massages </NavLink>
       </div>
       <div className={s.item}>
-        <a href="/news">3 News</a>
+        <NavLink to="/news" className={NaveData => NaveData.isActive ? s.activeLink : s.item}>News</NavLink>
       </div>
       <div className={s.item}>
-        <a href="/music">4 Music</a>
+        <NavLink to="/music" className={NaveData => NaveData.isActive ? s.activeLink : s.item}>Music</NavLink>
       </div>
       <div className={`${s.item} ${s.active}`}>
-        <a href="/settings">5 Settings</a>
+        <NavLink to="/settings" className={NaveData => NaveData.isActive ? s.activeLink : s.item}>Settings</NavLink>
       </div>
-      <div className={`${s.item} ${s.active}`}>
+      {/* <div className={`${s.item} ${s.active}`}>
         <h5>Iron</h5>
-      </div>
+      </div> */}
     </nav>
   );
 };
